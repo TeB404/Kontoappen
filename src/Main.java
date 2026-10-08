@@ -2,4 +2,7 @@ public class main() {
     public static void main(String[] args) {
         AccountRegister register = new AccountRegister();
     }
+
+    register.createAccount()
+
 }

@@ -15,4 +15,8 @@ public class AccountRegister {
         Account account = new Account(name, balance);
         accounts.add(account);
     }
+
+    public Account findAccount(String name) {
+
+    }
 }

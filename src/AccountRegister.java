@@ -17,6 +17,12 @@ public class AccountRegister {
     }
 
     public Account findAccount(String name) {
-
-    }
+        for (int i = 0; 1 < accounts.size(); i++) {
+            Account a = accounts.get(i);
+                if (a.getName().equalsIgnoreCase(name)) {
+                    return a;
+                }
+            }
+        return null;
+        }
 }

@@ -41,6 +41,25 @@ public class Main {
                 } else {
                     System.out.println("Konto saknas: " + name);
                 }
+            } else if (choice == 4) {
+                System.out.println("Namn: ");
+                String name = scanner.nextLine();
+                Account found = register.findAccount(name);
+
+                if (found != null) {
+                    System.out.println("Belopp: ");
+                    int amount = scanner.nextInt();
+                    scanner.nextLine();
+
+                    if (amount > 0 && found.getBalance() >= amount) {
+                        found.withdraw(amount);
+                        System.out.println("Nytt saldo: " + found.getBalance());
+                    } else {
+                        System.out.println("Finns inget belopp eller otillräckligt saldo");
+                    }
+                } else {
+                    System.out.println("Konto saknas: " + name);
+                }
             }
         }
 

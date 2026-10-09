@@ -13,4 +13,6 @@ och om den finns, så anropar kontot för Withdraw(amount). Då kontrollerar den
 saldot räcker och minskar det  vid godkänt uttag.
 
 Har använt hjälp av lite AI och en del andra kodare + att jag läste lite på internet också.
-Hade lite problem, var påväg att fråga om handling eller dom andra men lcykades fixa detta själv.
+Hade lite problem, var påväg att fråga om handling eller dom andra men lyckades fixa detta själv.
+
+[här är läken](https://funet-my.sharepoint.com/:v:/g/personal/3kdyhapp26_bergte_folkuniversitetet_nu/IQDHvBNgptS6QLzAKhL89QZTATbWKzDZoRQjdMwjLRCyYP4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=VSIMYc)

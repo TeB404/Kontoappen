@@ -26,12 +26,15 @@ public class Main {
                 scanner.nextLine();
                 register.createAccount(name, balance);
                 System.out.println("Kontot skapat.");
-            } else if (choice == 2) {
+            }
+            else if (choice == 2) {
                 register.printAll();
-            } else if (choice == 3) {
+            }
+            else if (choice == 3) {
                 System.out.println("Namn: ");
                 String name = scanner.nextLine();
                 Account found = register.findAccount(name);
+
                 if (found != null) {
                     System.out.println("Belopp: ");
                     int amount = scanner.nextInt();
@@ -55,11 +58,15 @@ public class Main {
                         found.withdraw(amount);
                         System.out.println("Nytt saldo: " + found.getBalance());
                     } else {
-                        System.out.println("Finns inget belopp eller otillräckligt saldo");
+                        System.out.println("Fel: Uttag nekas, otillräckligt saldo");
                     }
                 } else {
                     System.out.println("Konto saknas: " + name);
                 }
+            } else if (choice == 5) {
+                System.out.println("Hej då");
+            } else {
+                System.out.println("Ogiltigt val");
             }
         }
 

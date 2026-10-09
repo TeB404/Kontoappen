@@ -19,6 +19,13 @@ public class Main {
             scanner.nextLine();
 
             if (choice == 1) {
+                System.out.println("Namn: ");
+                String name = scanner.nextLine();
+                System.out.println("Startsadlo: ");
+                int balance = scanner.nextInt();
+                scanner.nextLine();
+                register.createAccount(name, balance);
+                System.out.println("Kontot skapat.");
 
             }
         }
